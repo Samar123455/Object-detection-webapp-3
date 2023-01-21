@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Object detector web app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@300&family=Updock&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="kitchen.css">
+    </head>
+    <body >
+        <center><div class="header">
+
+            <h1>It is an image of an bedroom . Lets see how "Cocossd" model recognizies things present in it .</h1>
+           <a href="index.html"> <button type="button" id="back"  height="40" width="30"><img height="20" width="20" src="https://cdn.onlinewebfonts.com/svg/img_68727.png"></button></a>
+          </div> 
+           <br>
+           <span >
+            <h2 class="btn btn-danger" id="status">Status : </h2>
+            <h2 class="btn btn-info" id="elements">Elements :</h2>
+            <button type="button" id="start" onclick="start();" class="btn btn-danger">Start Recgonition</button>
+           </span>
+
+        </center>
+     <script src="kitchen.js"></script>
+    </body>
+</html>

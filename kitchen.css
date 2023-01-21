@@ -1,0 +1,37 @@
+
+#back{
+    float: left;
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
+    margin-right: -40px;
+    margin-top: -55px;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+.class{
+    background-color:rgb(165, 170, 174)
+}
+
+body{
+    
+    background: url(https://images7.alphacoders.com/291/291780.jpg);
+    background-size: cover;
+}
+#status{
+    float:left;
+    margin-left: 300px;
+}
+
+#elements{
+    float:right;
+    margin-right: 300px;
+}
+
+canvas{
+    margin-top:100px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+}
